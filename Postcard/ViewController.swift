@@ -33,7 +33,7 @@ class ViewController: UIViewController {
   @IBAction func sendMailButtonPressed(sender: UIButton) {
   
     // Code will evaluate on touch up inside event sent to UIButton
-    messageLabel.text = enterNameTextField.text+" "+enterMessageTextField.text
+    messageLabel.text = enterMessageTextField.text
     messageLabel.hidden = false
     enterMessageTextField.text = ""
     enterMessageTextField.resignFirstResponder()
